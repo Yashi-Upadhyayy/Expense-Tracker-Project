@@ -54,8 +54,9 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Sign Up</a></li>
-          <li><a class="nav-link scrollto" href="#team">Subscribe</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Sign Up</a></li>
+          <li><a class="nav-link scrollto" href="#subs">Subscribe</a></li>
+          <li><a class="nav-link scrollto" href="#faq">FAQs</a></li>
           <li><a class="getstarted scrollto" href="#about">Sign In</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -173,11 +174,11 @@
           <p>Register yourself here</p>
         </div>
 
-        <div class="row" style="text-align: center;">
+        <div class="row">
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row" style="text-align: center;">
+              <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Full Name:</label>
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -217,7 +218,7 @@
     <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6" id="subs">
             <h4>Join Us</h4>
             <p>Subscribe to get monthly updates through emails</p>
             <form action="" method="post">
@@ -228,58 +229,65 @@
       </div>
     </div>
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+    <section id="faq" class="faq" style="background-color: white;">
+      <div class="container" data-aos="fade-up">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>KharchaBook</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Sign Up</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Subscribe</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
-
+        <div class="section-title">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
         </div>
+
+        <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Is this online or do I have to download software? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                No download of any software is required to use KharchaBook. It is accessible online securely through any web browser.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Is it free or do I have to pay anything? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                KharchaBook is completely free of cost. You just need to register yourself and you are good to go.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Is it accessible through mobile phones? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Of course. It can be accessed through mobile phones, laptops, pcs, etc. easily. The only requirements to use it are internet connection and web browser.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Is it safe to use?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                KharchaBook is completely safe and secure. Your details are password protected and can be accessed only by you. 
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What are its benefits? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                This system is an attempt to manage our daily expenses in a more efficient and manageable way. The system attempts to free the user with as much as possible the burden of manual calculation and to keep the track of the expenditure. This system enables the user to not just calculate the expenses easily but also keep track of monthly savings and give suggestions how to maintain and increase the savings in the upcoming month as per records of last few months. The user can easily look at the calculations and get a proper view how the money is being spent. 
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
       </div>
-    </div>
+    </section>
 
     <div class="container py-4">
       <div class="copyright">
@@ -290,7 +298,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/ -->
-        Designed by <a href="https://bootstrapmade.com/">hugs for bugs</a>
+        Designed by <a href="">Hugs for Bugs</a>
       </div>
     </div>
   </footer><!-- End Footer -->
